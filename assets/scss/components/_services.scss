@@ -1,0 +1,16 @@
+.services {
+  @extend %contrast-section;
+  text-align: center;
+}
+
+.l-services {
+
+  i {
+    color: var(--second-color);
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-weight: var(--medium-font-weight);
+  }
+}

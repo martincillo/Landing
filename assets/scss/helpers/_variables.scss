@@ -1,0 +1,28 @@
+$max-width: 1200px;
+$gap: 1rem;
+
+// Paleta de colores
+:root {
+  --first-color: #4586A1;
+  --second-color: #AD6A91;
+  // --text-color: #CECFD1;
+  --text-color: #7A797E;
+  --accent-color: #F1F5F8;
+  --banner-1: #356E82;
+  --banner-2: #70408A;
+}
+
+// Variables de tipografía
+:root {
+  --h1-font-size: 2.5rem;
+  --h2-font-size: 1.75rem;
+  --h3-font-size: 1.5rem;
+  --h4-font-size: 1.2rem;
+  --h5-font-size: 1.2rem;
+  --body-font-size: 1rem;
+  --small-font-size: .8rem;
+
+  --light-font-weight: 300;
+  --regular-font-weight: 400;
+  --medium-font-weight: 500;
+}

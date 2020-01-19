@@ -1,0 +1,29 @@
+%buttons {
+  display: inline-block;
+  padding: .5rem 1rem;
+  color: var(--accent-color);
+  border-radius: .2rem;
+  font-size: var(--small-font-size);
+  font-weight: var(--medium-font-weight);
+}
+
+%contrast-section {
+  background-color: var(--accent-color);
+}
+
+%border-after {
+  content: '';
+  position: absolute;
+  bottom: -70%;
+  left: 50%;
+  width: 45px;
+  height: 3px;
+  background-color: rgb(175, 40, 107);
+  transform: translateX(-50%);
+}
+
+.title-pseudo {
+  margin-top: 0;
+  margin-bottom: 3rem;
+  position: relative;
+}

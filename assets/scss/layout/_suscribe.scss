@@ -1,0 +1,34 @@
+.suscribe {
+  padding: 2rem 0;
+  color: var(--accent-color);
+  font-weight: var(--regular-font-weight);
+
+  ::placeholder {
+    color: mix(white, gray, 70%);
+    padding-left: 1rem
+  }
+}
+
+.suscribe-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  input[type="email"] {
+    padding: .5rem 0;
+    border-radius: 3px;
+    border: none;
+    margin-right: .5rem;
+    width: 12rem;
+    font-size: var(--small-font-size);
+  }
+
+  input[type="submit"] {
+    @extend %buttons;
+    background-color:rgba(58, 205, 250, 0.842);
+    border: none;
+    
+    font-size: var(--small-font-size);
+    font-weight: 600;
+  }
+}

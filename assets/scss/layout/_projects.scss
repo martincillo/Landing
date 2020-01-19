@@ -1,0 +1,19 @@
+.projects {
+  padding: 5rem 0;
+  text-align: center;
+
+  &__buttons {
+    margin-bottom: 3rem;
+
+    a {
+      @extend %buttons;
+      margin-right: 1rem;
+      background-color: #C7DEEF;
+      color: var(--text-color);
+      
+      &:hover {
+        background-color: var(--accent-color);
+      }
+    }
+  }
+}

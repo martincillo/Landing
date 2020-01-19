@@ -1,0 +1,30 @@
+.our-clients {
+    padding: 5rem 0;
+    text-align: center;
+
+  &__title {
+
+    &::after {
+      @extend %border-after;
+    }
+  }
+
+  &__images {
+    display: flex;
+    // justify-content: space-between;
+    height: 100px;
+    
+    & img {
+      margin-right: 3rem;
+      flex: 1;
+      width: 10%;
+      
+
+      &:last-child {
+        margin-right: 0;
+        object-fit: cover;
+        object-position: -10px 0;
+      }
+    }
+  }
+}

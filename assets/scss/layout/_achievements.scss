@@ -1,0 +1,44 @@
+.achievements {
+  position: relative;
+  height: 20rem;
+  background-image: linear-gradient(var(--banner-1), var(--banner-2));
+  color: var(--accent-color);
+
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .3;
+    height: 80%;
+  }
+
+  &__content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+
+    i {
+      font-size: 3rem;
+      margin-right: 1rem;
+    }
+  }
+
+  &__description {
+    p:first-child {
+      font-size: 1.5rem;
+      font-weight: var(--medium-font-weight);
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
