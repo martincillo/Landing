@@ -2,4 +2,4 @@
 
 Proyecto de maquetado de un landing page de un diseño tomado de terceros.
 
-[Ver el proyecto]()
+[Ver el proyecto](https://landing.mdominguezmd92.now.sh/)
